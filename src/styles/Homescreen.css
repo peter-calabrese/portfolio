@@ -1,0 +1,36 @@
+h1{
+    margin:0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nameText{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+}
+.position{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.description{
+    text-align: center;
+    margin-left: 60em;
+    margin-right: 60em;
+}
+
+@media screen and (max-width:767px){
+    .nameText{
+        font-size: 2.5rem;
+    }
+    .description{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
